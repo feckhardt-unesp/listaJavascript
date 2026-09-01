@@ -79,6 +79,34 @@ console.log("Estoque: "+estoque);
 estoque -= 4;
 console.log("Estoque: "+estoque);
 
+//17)
+let pontos = 40;
+pontos *= 2;
+console.log(pontos);
+pontos += 50;
+console.log(pontos);
+
+//18)
+let precoProduto1 = 180.00;
+precoProduto1 /= 2;
+console.log("Metade do preco: "+precoProduto1);
+
+//19)
+console . log (5 == "5") ;//Compara se o valor é igual a 5 independente do tipo que ele possui
+console . log (5 === "5") ;//Compara se o valor é igual a 5 apenas se for do tipo string
+
+//20)
+console . log (5 != "5") ;//Compara se o valor é diferente de 5 independente do tipo que ele possui
+console . log (5 !== "5") ;//Compara se o valor é diferente de 5 apenas se for do tipo string
+
+//21)
+let estoque2 = 50;
+console . log (estoque2 > 10) ;
+console . log (estoque2 < 20) ;
+console . log (estoque2 >= 30) ;
+console . log (estoque2 <= 40) ;
+
+
 
 
 
