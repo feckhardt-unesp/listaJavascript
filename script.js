@@ -106,9 +106,69 @@ console . log (estoque2 < 20) ;
 console . log (estoque2 >= 30) ;
 console . log (estoque2 <= 40) ;
 
+//22)
+let estoque3 =80;
+if(estoque3 > 0){
+    console.log("Produto disponivel");
+}
+else{
+    console.log("Produto Indisponivel");
+}
 
+//23)
+let precoProduto2 = 150;
+if(precoProduto2 > 200){
+    console.log("Frete gratis");
+}
+else if(precoProduto2 > 100 && precoProduto2 < 200){
+    console.log("Frete com desconto");
+}
+else{
+    console.log("Frete normal");
+}
 
+//24)
+if(estoque3 > 0 && precoProduto2 < 100 ){
+    console.log("Pode comprar com desconto");
+}
+else{
+    console.log("Não pode comprar com desconto");
+}
 
+//25)
+let cupomValido = true;
+let clienteVip = false;
+if(cupomValido == true || clienteVip == true){
+    console.log("Desconto aplicado");
+}
+
+//26)
+let temEstoque = false;
+if(!temEstoque){
+    console.log("Produto Indisponivel");
+}
+
+//27)
+let categoria = "eletronico";
+switch (categoria) {
+  case "eletronico":
+    console.log("Produtos eletrônicos que terão seus cabos roídos por ratos!");
+    break;
+
+  case "roupa":
+    console.log("Confira as últimas tendências cheias de pelo de gato!");
+    break;
+
+  case "livro":
+    console.log("Explore novas histórias e conheça nossas traças!");
+    break;
+
+  default:
+    console.log("Categoria nao cadastrada");
+    break;
+}
+
+//28)
 
 
 
