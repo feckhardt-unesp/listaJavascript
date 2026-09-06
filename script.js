@@ -110,3 +110,5 @@ console . log (estoque2 <= 40) ;
 
 
 
+
+
