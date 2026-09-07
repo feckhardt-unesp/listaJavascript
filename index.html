@@ -3,13 +3,20 @@
 <head> 
     <meta charset="UTF-8"> 
     <title>Minha Página</title> 
+    <link rel="stylesheet" href="style.css">
     <script src="script.js" defer></script> <!-- 4) Se não colocar defer o codigo javascript sera executado antes da estrutura e não irá funcionar-->
     <!-- 3) O script externo é mais utilizado para evitar misturar o comportamento com a estrutura; 
     busca deixar o codigo mais organizado, permite utilizar em outros htmls, deixa mais facil para testes-->
 </head> 
 <body> 
     <header>
-        <h1>Lista de Exercícios</h1>
+        <ul class="nav-menu">
+            <li class="nav-item"><a href="#" class="nav-link active">Início</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Novidades</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Catálogo</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Sobre</a></li>
+      </ul>
+        <h1>Mestre Gato</h1>
     </header>
     <main>
         <div class="container"> 
@@ -19,9 +26,12 @@
             <br>
     </main>
     <footer>
-        <button id="btCliquei">Clique</button>
-        <button id="btContador">Contador</button>
-        <button id="btCor">Mudar Cor de Fundo</button>
+        <i class="fa-solid fa-cat"></i>
+        <h2>"Nomear os gatos é assunto complicado 
+            Não é uma simples brincadeira que divirta adolescentes 
+            Podem me chamr de doido desvairado
+            Quando eu digo que, gatos devem ter três nomes diferentes."
+        </h2>
     </footer>
 </body> 
 </html>

@@ -169,6 +169,7 @@ switch (categoria) {
 }
 
 //28)
+console.log("Chatllut! Seja bem vindo à loja Mestre Gato! Confira nosssa nova coleção de inverno e aproveite as promoções. ");
 
 
 
