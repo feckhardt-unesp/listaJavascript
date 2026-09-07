@@ -171,5 +171,26 @@ switch (categoria) {
 //28)
 console.log("Chatllut! Seja bem vindo à loja Mestre Gato! Confira nosssa nova coleção de inverno e aproveite as promoções. ");
 
+// 29)
+let nomeProduto3 = "Unitard de Gato Preto";
+let preco = 450.90;
+let quantidadeEstoque = 12;
+let valorTotalEstoque = preco * quantidadeEstoque;
+
+console.log("Resumo do Produto");
+console.log(`Produto: ${nomeProduto3}`);
+console.log(`Preço Unitário: R$ ${preco.toFixed(2)}`);
+console.log(`Quantidade em Estoque: ${quantidadeEstoque}`);
+console.log(`Valor Total em Estoque: R$ ${valorTotalEstoque.toFixed(2)}`);
+
+// 30)
+if (quantidadeEstoque < 5) {
+    console.log("Status: Estoque baixo");
+} else if (quantidadeEstoque >= 5 && quantidadeEstoque <= 19) {
+    console.log("Status: Estoque normal");
+} else {
+    console.log("Status: Estoque alto");
+}
+
 
 
